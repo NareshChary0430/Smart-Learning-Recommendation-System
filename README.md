@@ -28,6 +28,41 @@ Typical learning platforms fail because users drop off. **SERS** solves the rete
 *   **🎮 Generated Knowledge Quizzes**: Interactive quizzes generated in real-time by the AI specifically mapped to your customized roadmap track.
 *   **☁️ Leapfrog Cloud Auth**: Fully powered by Google Firebase. Secure split-screen authentication landing page. The moment you log in via Google, the application bypasses form states and dynamically hydrates your personalized dashboard using your profile avatar.
 
+## 📸 Interface Sneak Peek
+
+<div align="center">
+  <details open>
+    <summary><code>1. Split-Screen Authentication (Signup/Login)</code></summary>
+    <br>
+    <img src="./src/assets/auth.png" alt="SERS Auth Page" width="800"/>
+    <p><i>The secure Google Firebase authentication landing page.</i></p>
+  </details>
+  <br>
+
+  <details open>
+    <summary><code>2. The Homepage</code></summary>
+    <br>
+    <img src="./src/assets/homepage.png" alt="SERS Homepage" width="800"/>
+    <p><i>The landing perspective outlining platform goals.</i></p>
+  </details>
+  <br>
+  
+  <details open>
+    <summary><code>3. Profile Setup Engine</code></summary>
+    <br>
+    <img src="./src/assets/setup.png" alt="Profile Setup Form" width="800"/>
+    <p><i>Dynamic logic form mapping user intent to AI generation.</i></p>
+  </details>
+  <br>
+
+  <details open>
+    <summary><code>4. Enterprise Dashboard Layout</code></summary>
+    <br>
+    <img src="./src/assets/dashboard.png" alt="SERS Dashboard" width="800"/>
+    <p><i>The highly active, single-column reading flow showing the Pomodoro, Heatmap, and live Quizzes!</i></p>
+  </details>
+</div>
+
 ## 💻 Tech Stack
 
 *   **Frontend**: React (Vite Pipeline), Advanced Enterprise CSS Configurations (Monochromatic Dark Mode, Fluid Typography)
