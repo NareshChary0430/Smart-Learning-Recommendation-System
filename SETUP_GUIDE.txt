@@ -1,0 +1,28 @@
+SERS: Smart E-Learning Recommendation System 🚀
+------------------------------------------------
+
+To setup and run this project, you need to have the following installed:
+
+1. Software & Tools:
+------------------
+- Node.js (Version 18.x or higher)
+- npm (Node Package Manager - comes with Node.js)
+- A modern web browser (Chrome, Edge, Brave, etc.)
+- A code editor (VS Code recommended)
+
+2. Core Project Dependencies (Installed via npm):
+-----------------------------------------------
+- React (19.x) - UI Framework
+- Vite (8.x) - High-performance Build Tool & Dev Server
+- jsPDF (4.x) - Client-side PDF Generation library
+- Vanilla CSS 3 - Custom Premium Styling
+
+3. How to Install:
+-----------------
+Open your terminal in the project folder and run:
+> npm install
+
+4. How to Run:
+-------------
+To start the local development server:
+> npm run dev

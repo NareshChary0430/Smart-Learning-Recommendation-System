@@ -1,0 +1,127 @@
+.miniquiz-container {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.7) 100%);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  padding: 20px 25px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.miniquiz-container::after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 100px;
+  height: 100px;
+  background: var(--accent);
+  filter: blur(80px);
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.miniquiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.xp-badge {
+  background: rgba(234, 179, 8, 0.2);
+  color: #eab308;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  animation: pulseGlow 2s infinite;
+}
+
+.miniquiz-q {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.miniquiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.miniquiz-opt {
+  display: flex;
+  align-items: center;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid var(--glass-border);
+  padding: 12px 15px;
+  border-radius: var(--radius);
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.miniquiz-opt:hover:not(:disabled) {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.2);
+  transform: translateX(4px);
+}
+
+.miniquiz-opt-letter {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-right: 15px;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.miniquiz-opt.correct {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: var(--accent);
+  color: #fff;
+}
+.miniquiz-opt.correct .miniquiz-opt-letter {
+  background: var(--accent);
+  color: #fff;
+}
+
+.miniquiz-opt.wrong {
+  background: rgba(2ef, 68, 68, 0.15);
+  border-color: #ef4444;
+  color: #fff;
+}
+.miniquiz-opt.wrong .miniquiz-opt-letter {
+  background: #ef4444;
+  color: #fff;
+}
+
+.miniquiz-opt.faded {
+  opacity: 0.4;
+}
+
+.miniquiz-footer {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid var(--glass-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.miniquiz-feedback {
+  font-weight: 700;
+  margin: 0;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,33 @@
+.career-insights-card {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.8) 100%);
+  border-color: rgba(37, 99, 235, 0.3);
+}
+
+.insight-section {
+  margin-bottom: 1.25rem;
+}
+
+.insight-section:last-child {
+  margin-bottom: 0;
+}
+
+.insight-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+.insight-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.insight-value.highlight {
+  color: var(--accent);
+  font-size: 1.25rem;
+  font-weight: 800;
+}
